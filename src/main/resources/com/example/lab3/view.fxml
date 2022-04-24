@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab3.Controller">
+   <children>
+      <Button fx:id="importBut" layoutX="22.0" layoutY="337.0" mnemonicParsing="false" onAction="#importFile" prefHeight="40.0" prefWidth="270.0" text="Import" />
+      <TreeView fx:id="treeReactors" layoutX="24.0" layoutY="22.0" prefHeight="294.0" prefWidth="264.0" />
+   </children>
+</AnchorPane>
